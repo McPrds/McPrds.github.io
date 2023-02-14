@@ -1,0 +1,35 @@
+body {
+    background-color: #ffe6f2;
+  }
+  
+  .container {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #ff1a75;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #ff1a75;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    cursor: pointer;
+  }
