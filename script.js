@@ -13,12 +13,8 @@ surpriseButton.addEventListener("click", showSurprise);
 function showSurprise() {
   const surpriseMessage = "MAHAL KITA ARAW - ARAW!";
   alert(surpriseMessage);
-  const videoUrl = "C:/Users/User/Desktop/HTML/VDay/video.mp4";
-  const videoHtml = `
-    <video width="315" height="560" controls>
-      <source src="${videoUrl}" type="video/mp4">
-    </video>
-  `;
+  const videoUrl = "https://www.youtube.com/embed/mM6uyKzMdng";
+  const videoHtml = `<iframe width="315" height="560" src="${videoUrl}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
   const container = document.querySelector(".container");
   container.innerHTML = videoHtml;
 }
